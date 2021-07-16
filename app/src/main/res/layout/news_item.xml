@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/grey"
+    app:cardCornerRadius="8dp"
+    android:layout_margin="4dp"
+    android:id="@+id/nitem_cardview"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="center"
+        android:id="@+id/nitem_iv"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nitem_tv_news_title"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text="heading title"
+        android:padding="5dp"
+        android:maxLines="2"
+        android:layout_margin="3dp"
+        android:textColor="@color/yellow"
+        android:layout_below="@+id/nitem_iv"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nitem_tv_news_body"
+        android:textStyle="normal"
+        android:textSize="9dp"
+        android:text="heading titleheading titleheading titleheading titleheading title
+        heading titleheading titleheading titleheading titleheading titleheading title
+        heading titleheading titleheading titleheading titleheading titleheading tit"
+        android:padding="5dp"
+        android:maxLines="3"
+        android:layout_margin="3dp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/nitem_tv_news_title"
+        />
+
+
+
+</RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
